@@ -15,7 +15,7 @@ import streamlit as st
 
 # wine_type_pre.ipynb
 
-model = joblib.load('/content/wine_type_pre.ipynb')
+model = joblib.load('wine_prediction_pkl.pkl')
 
 st.set_page_config(page_title="Wine Type Classification", layout="centered")
 st.title('Wine Type Classification App')
